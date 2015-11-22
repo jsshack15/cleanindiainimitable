@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <meta name="generator" content="Serif WebPlus X8">
+    <meta name="viewport" content="width=1280">
+    
+		
+    <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
+    <style type="text/css">
+      .OBJ-1,.OBJ-1:link,.OBJ-1:visited { background-color:transparent;text-decoration:none;display:block;position:absolute; }
+      .OBJ-1:focus { outline-style:none; }
+      button.OBJ-1 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-1:disabled { pointer-events:none; }
+      .OBJ-1.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-1 span,.OBJ-1:link span,.OBJ-1:visited span { color:#575752;font-family:"Trebuchet MS",sans-serif;font-weight:bold;text-decoration:none;text-align:center;text-transform:capitalize;font-style:normal;left:0px;top:1px;width:52px;height:20px;line-height:20px;font-size:14px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-1:hover span { color:#f1eee7; }
+      .OBJ-1:active span,a:link.OBJ-1.Activated span,a:link.OBJ-1.Down span,a:visited.OBJ-1.Activated span,a:visited.OBJ-1.Down span,.OBJ-1.Activated span,.OBJ-1.Down span { color:#9c9c94; }
+      .OBJ-2 { line-height:21px; }
+      .OBJ-3,.OBJ-3:link,.OBJ-3:visited { background-color:transparent;text-decoration:none;display:block;position:absolute; }
+      .OBJ-3:focus { outline-style:none; }
+      button.OBJ-3 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-3:disabled { pointer-events:none; }
+      .OBJ-3.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-3 span,.OBJ-3:link span,.OBJ-3:visited span { color:#575752;font-family:"Trebuchet MS",sans-serif;font-weight:bold;text-decoration:none;text-align:center;text-transform:capitalize;font-style:normal;left:0px;top:1px;width:82px;height:20px;line-height:20px;font-size:14px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-3:hover span { color:#f1eee7; }
+      .OBJ-3:active span,a:link.OBJ-3.Activated span,a:link.OBJ-3.Down span,a:visited.OBJ-3.Activated span,a:visited.OBJ-3.Down span,.OBJ-3.Activated span,.OBJ-3.Down span { color:#9c9c94; }
+      .C-1 { line-height:20.72px;font-family:"Arial", sans-serif;font-style:normal;font-weight:normal;color:#dbdbd6;background-color:transparent;text-decoration:none;font-variant:normal;font-size:10.7px;vertical-align:0; }
+      .C-2 { line-height:22.20px;font-family:"Arial", sans-serif;font-style:normal;font-weight:normal;color:#82827b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:12.0px;vertical-align:0; }
+      a.C-2:link, a:link .C-2 { color:#82827b;text-decoration:none; }
+      a.C-2:visited, a:visited .C-2 { color:#82827b;text-decoration:underline; }
+      a.C-2:hover, a:hover .C-2 { color:#f1eee7;text-decoration:underline; }
+      a.C-2:active, a:active .C-2 { color:#82827b;text-decoration:underline; }
+      .C-3 { line-height:22.20px;font-family:"Arial", sans-serif;font-style:normal;font-weight:normal;color:#82827b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:12.0px;vertical-align:0; }
+      .C-4 { line-height:24.00px;font-family:"Georgia", serif;font-style:normal;font-weight:normal;color:#82827b;background-color:transparent;text-decoration:none;font-variant:normal;font-size:20.0px;vertical-align:0; }
+    </style>
+    <script type="text/javascript" src="wpscripts/jquery.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.wplightbox.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
+      $('#site_search_1_input').keypress(function(event) { if ( event.keyCode == 13 ) window.location.href = 'searchresults.html?site_search_results_1='+document.getElementById('site_search_1_input').value+'&depth=0&swr=false'; });
+
+      $('#site_search_1_button').click(function(event) { window.location.href = 'searchresults.html?site_search_results_1='+document.getElementById('site_search_1_input').value+'&depth=0&swr=false'; });
+
+      $('.wplightbox').wplightbox(
+      {"loadBtnSrc":"wpimages/lightbox_load.gif","playBtnSrc":"wpimages/lightbox_play.png","playOverBtnSrc":"wpimages/lightbox_play_over.png","pauseBtnSrc":"wpimages/lightbox_pause.png","pauseOverBtnSrc":"wpimages/lightbox_pause_over.png","border_e":"wpimages/lightbox_e_6.png","border_n":"wpimages/lightbox_n_6.png","border_w":"wpimages/lightbox_w_6.png","border_s":"wpimages/lightbox_s_6.png","border_ne":"wpimages/lightbox_ne_6.png","border_se":"wpimages/lightbox_se_6.png","border_nw":"wpimages/lightbox_nw_6.png","border_sw":"wpimages/lightbox_sw_6.png","closeBtnSrc":"wpimages/lightbox_close_2.png","closeOverBtnSrc":"wpimages/lightbox_close_over_2.png","nextBtnSrc":"wpimages/lightbox_next_2.png","nextOverBtnSrc":"wpimages/lightbox_next_over_2.png","prevBtnSrc":"wpimages/lightbox_prev_2.png","prevOverBtnSrc":"wpimages/lightbox_prev_over_2.png","blankSrc":"wpscripts/blank.gif","bBkgrndClickable":true,"strBkgrndCol":"#000000","nBkgrndOpacity":0.5,"strContentCol":"#ffffff","nContentOpacity":0.8,"strCaptionCol":"#555555","nCaptionOpacity":1.0,"nCaptionType":1,"bCaptionCount":true,"strCaptionFontType":"Tahoma,Serif","strCaptionFontCol":"#ffffff","nCaptionFontSz":15,"bShowPlay":true,"bAnimateOpenClose":true,"nPlayPeriod":2000}
+      );
+      });
+    </script>
+  </head>
+  <body style="height:1000px;background:#f1eee7 url('wpimages/wpf1c975a5_06.png') repeat-x scroll center top;background-size:auto;">
+    <div style="height:inherit;width:100%;min-width:1280px;margin:0;position:absolute;background:transparent url('wpimages/wp52d2f274_06.png') repeat-x scroll center bottom;background-size:auto;"></div>
+    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:1280px;height:1000px;">
+      <img alt="" src="wpimages/wpe4bfa40e_06.png" style="position:absolute;left:0px;top:0px;width:1280px;height:56px;">
+      <div style="position:absolute;left:444px;top:16px;width:427px;height:40px;">
+        <a href="index.html" id="nav_1_B1" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:5px;top:5px;width:53px;height:21px;">
+          <span>Home</span>
+        </a>
+        <a href="login.html" id="nav_1_B2" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:88px;top:5px;width:53px;height:21px;">
+          <span>Login</span>
+        </a>
+        <a href="contactus.html" id="nav_1_B3" class="OBJ-3 ActiveButton OBJ-2" style="display:block;position:absolute;left:171px;top:5px;width:83px;height:21px;">
+          <span>Contact&nbsp;Us</span>
+        </a>
+        <a href="forum.html" id="nav_1_B4" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:284px;top:5px;width:53px;height:21px;">
+          <span>Forum</span>
+        </a>
+        <a href="blog.html" id="nav_1_B5" class="OBJ-1 ActiveButton OBJ-2" style="display:block;position:absolute;left:367px;top:5px;width:53px;height:21px;">
+          <span>Blog</span>
+        </a>
+      </div>
+      <div style="position:absolute;left:917px;top:17px;width:223px;height:22px;">
+        <input id="site_search_1_input" name="site_search_1_input" style="width:132px;">
+        <div style="display:inline;"><input id="site_search_1_button" type="button" value="Search" style="width:83px;"></div>
+      </div>
+      <img alt="" src="wpimages/wp4d411620_06.png" style="position:absolute;left:850px;top:900px;width:34px;height:34px;">
+      <img alt="" src="wpimages/wp4d411620_06.png" style="position:absolute;left:894px;top:900px;width:34px;height:34px;">
+      <div style="position:absolute;left:850px;top:950px;width:289px;height:28px;overflow:hidden;">
+        <p class="Footer"><span class="C-1"><br></span></p>
+      </div>
+      <div style="position:absolute;left:141px;top:775px;width:310px;height:176px;overflow:hidden;">
+        <p class="Body-Small"><a href="index.html" class="C-2">Home</a></p>
+        <p class="Body-Small"><a href="login.html" class="C-2">Login</a></p>
+        <p class="Body-Small"><a href="contactus.html" class="C-2">Contact Us</a></p>
+        <p class="Body-Small"><a data-lightbox="{&quot;galleryId&quot;:&quot;wplightbox&quot;}" class="wplightbox C-2" href="forum.html">Forum</a></p>
+      </div>
+      <div style="position:absolute;left:850px;top:813px;width:289px;height:69px;overflow:hidden;">
+        <p class="Body-Small"><span class="C-3"><br></span></p>
+      </div>
+      <div style="position:absolute;left:487px;top:815px;width:328px;height:160px;overflow:hidden;">
+        <p class="Body-Small"><span class="C-3"><br></span></p>
+      </div>
+      <div style="position:absolute;left:850px;top:830px;width:241px;height:35px;overflow:hidden;">
+        <h3 class="Heading-3"><span class="C-4">Follow us!</span></h3>
+      </div>
+      <div style="position:absolute;left:487px;top:770px;width:328px;height:43px;overflow:hidden;"><h3 class="Heading-3"><span class="C-4"><br></span></h3></div><a href="index.html"><img alt="Home" src="wpimages/wpf9deef0d_05_06.jpg" style="position:absolute;left:110px;top:0px;width:310px;height:77px;"></a>
+    </div>
+  </body>
+</html>
