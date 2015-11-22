@@ -22,6 +22,7 @@ a:visited {color:#ffffff;text-decoration:underline;}
 .Title { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Georgia", serif;font-style:normal;font-weight:normal;color:#ffffff;background-color:transparent;font-variant:normal;font-size:73.0px;vertical-align:0;letter-spacing:1.47px; }
 .User-Details { text-align:left;margin:0px;text-indent:0.0px;line-height:1px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:normal;color:#e29250;background-color:transparent;font-variant:normal;font-size:13.0px;vertical-align:0; }
 .User-Details-1 { text-align:left;margin:0px 0px 13px;text-indent:0.0px;line-height:1px;font-family:"Georgia", serif;font-style:normal;font-weight:normal;color:#82827b;background-color:transparent;font-variant:normal;font-size:20.0px;vertical-align:0; }
+<<<<<<< HEAD
 .ui-date-widget { font-family: Arial,sans-serif; font-size: 17.6px; }
 .ui-date-widget .ui-date-widget { font-size: 16.0px; }
 .ui-date-widget input, .ui-date-widget select, .ui-date-widget textarea, .ui-date-widget button { font-family: Arial,sans-serif; font-size: 16.0px; }
@@ -106,3 +107,5 @@ a:visited {color:#ffffff;text-decoration:underline;}
 .ui-date_1-state-hover a, .ui-date_1-state-hover a:hover { color: #212121; }
 .ui-date_1-state-active a, .ui-date_1-state-active a:link, .ui-date_1-state-active a:visited { color: #212121; }
 .ui-date_1-icon { width: 16px; height: 16px; background-image: url('date_1-datepickerui.png'); }
+=======
+>>>>>>> 46eaef57e46a19d7267a746f89069ee724d18322
